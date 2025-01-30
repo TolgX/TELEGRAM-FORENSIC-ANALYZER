@@ -44,4 +44,4 @@ The program provides effective use especially in the following areas:
 5. CONCLUSION
 Thanks to its user-friendly interface, this analysis tool allows non-technical users to easily perform analysis. It can be used as an effective tool especially in forensic informatics investigations, analysis and reporting of digital evidence.
 
-Translated with DeepL.com (free version)
+
