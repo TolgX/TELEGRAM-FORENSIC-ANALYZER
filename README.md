@@ -1,51 +1,53 @@
-TELEGRAM FORENSIC ANALYSIS TOOL
+TELEGRAM ADLİ ANALİZ ARACI
 
-1. INTRODUCTION
-The program developed in this study is a comprehensive forensic analysis tool that analyzes JSON format data exported from the Telegram messaging application. Using a modern graphical user interface (GUI), the program provides digital forensic analysts and researchers with detailed data analysis.
+1. GİRİŞ
+Bu çalışmada geliştirilen program, Telegram mesajlaşma uygulamasından dışa aktarılan JSON formatındaki verileri analiz eden kapsamlı bir adli analiz aracıdır. Program, modern bir grafik kullanıcı arayüzü (GUI) kullanarak, dijital adli analiz uzmanlarına ve araştırmacılara detaylı veri analizi imkanı sunmaktadır.
 
-2. BASIC FEATURES OF THE PROGRAM
+2. PROGRAMIN TEMEL ÖZELLİKLERİ
 
-2.1. General Statistics Module
-- Statistical analysis of total number of messages, users and media
-- Visualization of the most frequently used words with an interactive word cloud
-- Presentation of user activities with pie charts
+2.1. Genel İstatistikler Modülü
+•  Toplam mesaj, kullanıcı ve medya sayılarının istatistiksel analizi
+•  En sık kullanılan kelimelerin interaktif kelime bulutu ile görselleştirilmesi
+•  Kullanıcı aktivitelerinin pasta grafikleri ile sunumu
 
-2.2. Media Analysis Module
-- View profile photos and stories in chronological order
-- Detailed display of date and duration information for each media item
-- Graphical analysis of the distribution of media types
+2.2. Medya Analizi Modülü
+•  Profil fotoğrafları ve hikayelerin kronolojik sıralama ile görüntülenmesi
+•  Her medya öğesi için tarih ve süre bilgilerinin detaylı gösterimi
+•  Medya türlerinin dağılımının grafiksel analizi
 
-2.3. Message Analysis Module
-- Listing of message contents in chronological order
-- Detailed display of message owners and sending dates
-- Visualization of message statistics with various graphs
+2.3. Mesaj Analizi Modülü
+•  Kronolojik sırayla mesaj içeriklerinin listelenmesi
+•  Mesaj sahipleri ve gönderim tarihlerinin detaylı gösterimi
+•  Mesaj istatistiklerinin çeşitli grafiklerle görselleştirilmesi
 
-2.4. Person Analysis Module
-- Detailed analysis of users' message activity
-- Graphical representation of the most active users
-- Analysis of user-based communication patterns
+2.4. Kişi Analizi Modülü
+•  Kullanıcıların mesaj aktivitelerinin detaylı analizi
+•  En aktif kullanıcıların grafiksel gösterimi
+•  Kullanıcı bazlı iletişim örüntülerinin analizi
 
-2.5. Time Analysis Module
-- Graphical representation of the distribution of messages over time
-- Analysis of daily, weekly and monthly message density
-- Temporal analysis of communication patterns
+2.5. Zaman Analizi Modülü
+•  Mesajların zaman içindeki dağılımının grafiksel gösterimi
+•  Günlük, haftalık ve aylık mesaj yoğunluğunun analizi
+•  İletişim örüntülerinin zamansal analizi
 
-3. TECHNICAL INFRASTRUCTURE
-The program is developed using the Python programming language and makes use of the following libraries:
-- Tkinter: For graphical user interface
-- Matplotlib: For data visualization and graphing
-- PIL (Python Imaging Library): For image processing
-- Wordcloud: For word cloud creation
-
-
-4. AREAS OF USE
-The program provides effective use especially in the following areas:
-- Digital forensics investigations
-- Analyzing and reporting digital evidence
-- Detection of communication patterns
-- Analysis of user behavior
-
-5. CONCLUSION
-Thanks to its user-friendly interface, this analysis tool allows non-technical users to easily perform analysis. It can be used as an effective tool especially in forensic informatics investigations, analysis and reporting of digital evidence.
+3. TEKNİK ALTYAPI
+Program, Python programlama dili kullanılarak geliştirilmiş olup, aşağıdaki kütüphanelerden yararlanmaktadır:
+•  Tkinter: Grafik kullanıcı arayüzü için
+•  Matplotlib: Veri görselleştirme ve grafik oluşturma için
+•  PIL (Python Imaging Library): Görüntü işleme için
+•  Wordcloud: Kelime bulutu oluşturma için
 
 
+4. KULLANIM ALANLARI
+Program özellikle şu alanlarda etkin kullanım sağlamaktadır:
+•  Dijital adli bilişim incelemeleri
+•  Dijital delillerin analizi ve raporlanması
+•  İletişim örüntülerinin tespiti
+•  Kullanıcı davranışlarının analizi
+
+5. SONUÇ
+Geliştirilen bu analiz aracı, kullanıcı dostu arayüzü sayesinde teknik olmayan kullanıcıların da kolayca analiz yapabilmesine olanak sağlamaktadır. Özellikle adli bilişim incelemelerinde, dijital delillerin analizi ve raporlanması süreçlerinde etkili bir araç olarak kullanılabilmektedir.
+
+JSON Dosyasına Nasıl ulaşabilirim
+> Masaüstü telegram uygulumasına giriş yaptıktan sonra sol taraftaki üç çizgiye bastıktan sonra -> Ayarlar -> Gelişmiş -> Telegram Verilerimi Dışa Aktar
+> Burada indireceğimiz dizini ve hangi formatlarda çıktı alacağımızı (JSON VEYA HTML VEYA HER İKİSİ DE ) ve istediğimiz seçenekleri işaretleyip dışa aktar seçeneğine basıyoruz.
